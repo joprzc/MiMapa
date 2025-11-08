@@ -1,0 +1,97 @@
+# ==========================================
+# Android Studio / Kotlin - Universal Gitignore
+# Compatible con macOS, Windows y Linux
+# ==========================================
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/deploymentTargetDropDown.xml
+.idea/shelf/
+.idea/httpRequests/
+
+# Android Studio captures
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.class
+*.iml
+*.log
+*.hprof
+
+# OS files (macOS, Windows, Linux)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Gradle Wrapper (keep only the jar)
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Keystore files (no subir claves privadas)
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+
+# Firebase / Google API Keys
+google-services.json
+GoogleService-Info.plist
+
+# Android Studio generated files
+.idea/
+*.ipr
+*.iws
+out/
+
+# Misc
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+*.swo
+
+# NDK / CMake cache
+obj/
+cmake-build-*/
+
+# JetBrains
+.idea/assetWizardSettings.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/codeStyles/
+.idea/compiler.xml
+
+# Mac-specific system files
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
